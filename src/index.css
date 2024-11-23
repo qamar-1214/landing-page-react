@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&family=Rubik+Gemstones&family=Voltaire&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=MonteCarlo&family=Rubik+Gemstones&family=Voltaire&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100..900;1,100..900&family=MonteCarlo&family=Outfit:wght@100..900&family=Rubik+Gemstones&family=Voltaire&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.voltaire-regular {
+  font-family: "Voltaire", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.montecarlo-regular {
+  font-family: "MonteCarlo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+/* hero section */
+.outfit-uniquifier {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hero-img {
+  background: url("./Components/assets/hero-img.png") rgba(0, 0, 0, 0.9);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+}
+
+.hero-content {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+/* about section */
+.about-bg {
+  background: url("./Components/assets/hero-img.png") rgba(0, 0, 0, 0.9);
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-position: center;
+}
